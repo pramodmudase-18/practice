@@ -1,3 +1,18 @@
-<div class="text-center">
+<div style="text-align: center;">
+
   <h1>HELLO WORLD..!!</h1>
+  
+  <div class="btn-toolbar text-center well">
+    <button type="button" class="btn btn-primary btn-color btn-bg-color btn-sm col-xs-2 margin-left" routerLink="/home">
+      <span class="glyphicon glyphicon-plus" aria-hidden="true"></span> ADD PACKET
+    </button>
+    <button type="button" class="btn btn-primary btn-color btn-bg-color btn-sm col-xs-2 margin-left" routerLink="/about">
+      <span class="glyphicon glyphicon-edit" aria-hidden="true"></span> EDIT CUSTOMER
+    </button>
+    <button type="button" class="btn btn-primary btn-color btn-bg-color btn-sm col-xs-2 margin-left" routerLink="/contact">
+      <span class="glyphicon glyphicon-time" aria-hidden="true"></span> HISTORY
+    </button>
 </div>
+
+</div>
+<router-outlet></router-outlet>
